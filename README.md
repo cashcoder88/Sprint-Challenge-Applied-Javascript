@@ -40,6 +40,12 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. What is a component?
 
+1. The DOM (Document Object Model) is the interface for HTML documents, representing the page so it can be changed by JavaScript, for example.
+2. Events are simply the way us users interact with a page. A user clicking, for example, is an event.
+3. An event listener (.addEventListener for example) is a method to listen (have the computer watch out for) an event being triggered on a page. When this event triggers, the event listener fires a callback of our choosing.
+4. NodeList is array ‘like’, so it has a few methods attached to it, but only a few. Arrays, on the other hand, have MANY methods, so if we needed to use an unavailable array method for a NodeList, we could covert it into an array. 
+5. A component is simply a chunk of reusable code, in our case HTML/CSS/JS, and could be used over and over to build something. They are the building block of modern web applications due to their recyclability. 
+
 ### Git Set up
 
 * [x] Fork the project into your GitHub user account
